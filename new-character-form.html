@@ -28,7 +28,30 @@
         </form>
     </div>
 </nav>
+<div class="container-fluid">
+    <h3>Add a Character</h3>
+    <form class="form-control">
+        <label class="form-control mb-2">
+            Character Name
+            <input type="text" class="form-control">
+        </label>
+        <label class="form-control">
+            Description
+            <textarea class="form-control" rows="4"></textarea>
+        </label>
+        <label class="form-control">
+            Character Type
+            <select class="form-select">
+                <option value="sorcerer">Sorcerer</option>
+                <option value="non-sorcerer">Non-Sorcerer Human</option>
+                <option value="curse">Curse</option>
+                <option value="shikigami">Shikigami</option>
+            </select>
+        </label>
 
+        <button type="submit" class="btn btn-outline-success mt-4">Add</button>
+    </form>
+</div>
 
 
 </body>
